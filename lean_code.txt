@@ -1,0 +1,25 @@
+git config --global user.name "Jim Morrison"
+git config ==global user.email "thedoors@protonmail.com
+git config -l
+~/.gitconfig
+
+git init . (or path)
+git status
+git add . (or path)
+git commit -m "write your comment"
+
+git log 
+git log -1 (number) -p(information)
+git diff --staged (before you use commit-comand , check future logs)
+git checkout -- example.txt (delete chenges in file , before git add )
+git restore --staged example.txt (delete file in stage area)
+create .gitignore (use environment variables)
+
+git clone (url-if you use https) - clone folder on github
+git push origin - if you download directory from git hub , use just this command and push your new version on this directory
+
+
+Edit package without credits
+ssh-keygen
+git remote -v 
+git remove set-url origin *ssh_url*
